@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis" Version="1.40.2" />
+    <PackageReference Include="Google.Apis.Dialogflow.v2" Version="1.40.2.1612" />
+    <PackageReference Include="Google.Apis.Oauth2.v2" Version="1.40.2.1602" />
+    <PackageReference Include="Google.Cloud.Dialogflow.V2" Version="1.0.0-beta02" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+</Project>
